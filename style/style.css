@@ -453,10 +453,13 @@ footer :nth-child(3) {
 }
 
 @media screen and (max-width: 764px) {
+  body {
+    height: 3000px !important;
+  }
   .box-information {
     margin: 0 auto;
     width: 34% !important;
-    min-width: 380px !important;
+    min-width: 320px !important;
     height: 350px;
     /* From https://css.glass */
     background: rgba(255, 166, 0, 0.904);
@@ -478,11 +481,11 @@ footer :nth-child(3) {
   .box {
     width: 100px !important;
     height: 100%;
-    margin-left: -110px;
+    margin-left: -100px;
   }
   .box .icon {
     width: 200px;
-    height: 50% !important;
+    height: 40% !important;
   }
   .box .icon .fa-solid {
     font-size: 42px !important;
@@ -495,7 +498,7 @@ footer :nth-child(3) {
     text-align: center;
   }
   .information-description span {
-    font-size: 16px !important;
+    font-size: 14px !important;
   }
   .about-serwer {
     margin-top: 200px;
@@ -548,8 +551,9 @@ footer :nth-child(3) {
   }
   footer {
     height: 50px !important;
-    width: 400px !important;
-    margin-left: 20px !important;
+    width: 350px !important;
+    margin-left: 30px !important;
+    margin-top: 50px;
     text-align: center !important;
   }
   footer span {
@@ -565,13 +569,13 @@ footer :nth-child(3) {
   .regulaminbig .regu-box {
     width: 800px !important;
     height: 100%;
+    background-color: rgb(13, 13, 36);
     margin: 0 auto;
+    color: white;
     z-index: 12;
   }
   .regulaminbig .regu-box img {
-    max-width: 450px !important;
-    position: absolute;
-    height: 840px !important;
+    display: none;
   }
   .regulaminbig .regu-box .exit {
     position: relative;
@@ -596,9 +600,9 @@ footer :nth-child(3) {
     line-height: 0.3cm;
   }
   .regulaminbig .regu-box .regudsc span {
-    font-size: 10px !important;
-    line-height: 0.2cm;
-    width: 350px !important;
+    font-size: 11px !important;
+    line-height: 0.23cm;
+    width: 300px !important;
     display: block;
   }
 }
